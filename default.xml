@@ -8,5 +8,6 @@
 </project>
 <project path="mcuboot" name="sprd_IoT/zephyr/mcuboot" />
 <project path="toolchain" name="sprd_IoT/zephyr/toolchain" />
+<project path="u-boot" name="sprd_IoT/u-boot" revision="sprd_marlin3_module" />
 <project path="hwconfig" name="sprd_IoT/hwconfig" revision="unsc_marlin3_ott" />
 </manifest>
