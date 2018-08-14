@@ -3,7 +3,7 @@
 <remote name="origin" fetch="ssh://gitadmin@gitmirror.spreadtrum.com/" review="http://review.source.spreadtrum.com/gerrit/" />
 <default revision="unsc_marlin3_mcu" remote="origin" />
 
-<project path="kernel" name="sprd_IoT/zephyr/zephyr" >
+<project path="zephyr" name="sprd_IoT/zephyr/zephyr" >
 	  <copyfile dest="Makefile" src="root.mk"/>
 </project>
 <project path="mcuboot" name="sprd_IoT/zephyr/mcuboot" />
