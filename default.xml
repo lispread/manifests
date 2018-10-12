@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="origin" fetch="https://github.com/unisoc/" />
+<default revision="uwp5661" remote="origin" />
+
+<project path="zephyr" name="zephyr" />
+<project path="mcuboot" name="mcuboot" />
+<project path="apps" name="apps" />
+<project path="build" name="build" >
+	  <copyfile dest="Makefile" src="root.mk"/>
+</project>
+</manifest>
