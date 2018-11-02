@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="origin" fetch="ssh://gitadmin@gitmirror.spreadtrum.com/" review="http://review.source.spreadtrum.com/gerrit/" />
-<default revision="unsc_marlin3_mcu" remote="origin" />
+<remote name="origin" fetch="https://github.com/unisoc/" />
+<default revision="unisoc_1.12" remote="origin" />
 
-<project path="zephyr" name="sprd_IoT/zephyr/zephyr" >
+<project path="zephyr" name="zephyr" >
 	  <copyfile dest="Makefile" src="root.mk"/>
 </project>
-<project path="mcuboot" name="sprd_IoT/zephyr/mcuboot" />
-<project path="toolchain" name="sprd_IoT/zephyr/toolchain" />
-<project path="u-boot" name="sprd_IoT/u-boot" revision="sprd_marlin3_module" />
-<project path="hwconfig" name="sprd_IoT/hwconfig" revision="unsc_marlin3_ott" />
+<project path="u-boot" name="u-boot" />
+<project path="hwconfig" name="hwconfig" />
 </manifest>
