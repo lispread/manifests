@@ -13,4 +13,5 @@
 </project>
 <project path="u-boot" name="u-boot" />
 <project path="dloader" name="dloader" />
+<project path="firmware" name="firmware" />
 </manifest>
