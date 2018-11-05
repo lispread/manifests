@@ -10,6 +10,7 @@
 <project path="apps" name="apps" />
 <project path="build" name="build" revision="uboot" >
 	  <copyfile dest="Makefile" src="root.mk"/>
+	  <copyfile dest="README" src="README"/>
 </project>
 <project path="u-boot" name="u-boot" />
 <project path="dloader" name="dloader" />
