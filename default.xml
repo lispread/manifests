@@ -13,4 +13,5 @@
 	  <copyfile dest="README" src="README"/>
 </project>
 <project path="dloader" name="dloader" />
+<project path="firmware" name="firmware" />
 </manifest>
