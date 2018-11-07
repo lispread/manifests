@@ -12,7 +12,5 @@
 	  <copyfile dest="Makefile" src="root.mk"/>
 	  <copyfile dest="README" src="README"/>
 </project>
-<project path="u-boot" name="u-boot" />
 <project path="dloader" name="dloader" />
-<project path="firmware" name="firmware" />
 </manifest>
