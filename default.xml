@@ -8,7 +8,7 @@
 <project path="zephyr/ext/hal/unisoc/uwp5661" name="hal_uwp5" />
 <project path="mcuboot" name="mcuboot" />
 <project path="apps" name="apps" />
-<project path="build" name="build" revision="uboot" >
+<project path="build" name="build" >
 	  <copyfile dest="Makefile" src="root.mk"/>
 	  <copyfile dest="README" src="README"/>
 </project>
