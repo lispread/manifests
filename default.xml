@@ -2,7 +2,7 @@
 <manifest>
 <remote name="origin" fetch="https://github.com/unisoc/" />
 
-<default revision="master" remote="origin" />
+<default revision="refs/tags/unisoc-v0.3.0" remote="origin" />
 
 <project path="zephyr" name="zephyr" />
 <project path="zephyr/ext/hal/unisoc/uwp5661" name="hal_uwp5" />
