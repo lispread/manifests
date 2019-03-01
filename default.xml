@@ -5,7 +5,7 @@
 <default revision="master" remote="origin" />
 
 <project path="zephyr" name="zephyr" />
-<project path="zephyr/ext/hal/unisoc/uwp5661" name="hal_uwp5" />
+<project path="zephyr/ext/hal/unisoc/uwp" name="hal_uwp5" />
 <project path="mcuboot" name="mcuboot" />
 <project path="fdl" name="fdl" />
 <project path="apps" name="apps" />
