@@ -2,17 +2,17 @@
 <manifest>
 <remote name="origin" fetch="https://github.com/unisoc/" />
 
-<default revision="master" remote="origin" />
+<default revision="unisoc_1.13" remote="origin" />
 
 <project path="zephyr" name="zephyr" />
 <project path="zephyr/ext/hal/unisoc/uwp" name="hal_uwp5" />
 <project path="mcuboot" name="mcuboot" />
 <project path="fdl" name="fdl" />
 <project path="apps" name="apps" />
-<project path="build" name="build" >
+<project path="build" name="build" revision="master" >
 	  <copyfile dest="Makefile" src="root.mk"/>
 	  <copyfile dest="README" src="README"/>
 </project>
-<project path="dloader" name="dloader" />
-<project path="firmware" name="firmware" />
+<project path="dloader" name="dloader" revision="master" />
+<project path="firmware" name="firmware" revision="master" />
 </manifest>
