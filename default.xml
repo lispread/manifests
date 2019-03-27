@@ -15,5 +15,5 @@
 </project>
 <project path="dloader" name="dloader" />
 <project path="firmware" name="firmware" />
-<project path="utility/convert_ini" name="wifi_convert_ini" />
+<project path="utility/hwparam" name="hwparam" />
 </manifest>
