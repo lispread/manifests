@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="origin" fetch="https://github.com/unisoc/" />
+<remote name="private" fetch="ssh://gitadmin@gitmirror.spreadtrum.com/" review="http://review.source.spreadtrum.com/gerrit/" />
 
 <default revision="unisoc_1.13" remote="origin" />
 
@@ -8,12 +9,13 @@
 <project path="zephyr/ext/hal/unisoc/uwp" name="hal_uwp5" />
 <project path="mcuboot" name="mcuboot" />
 <project path="fdl" name="fdl" />
-<project path="apps" name="apps" />
 <project path="build" name="build" revision="master" >
 	  <copyfile dest="Makefile" src="root.mk"/>
 	  <copyfile dest="README" src="README"/>
 </project>
-<project path="dloader" name="dloader" revision="master" />
 <project path="firmware" name="firmware" revision="master" />
 <project path="utility/hwparam" name="hwparam" revision="master" />
+<project path="utility/dloader" name="dloader" revision="master" />
+
+<project path="apps" name="sprd_IoT/zephyr/apps" remote="private" revision="smart_speaker" />
 </manifest>
