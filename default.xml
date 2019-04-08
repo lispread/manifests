@@ -13,7 +13,6 @@
 	  <copyfile dest="Makefile" src="root.mk"/>
 	  <copyfile dest="README" src="README"/>
 </project>
-<project path="dloader" name="dloader" />
 <project path="firmware" name="firmware" />
 <project path="utility/hwparam" name="hwparam" />
 <project path="utility/uwpflash" name="uwpflash" />
