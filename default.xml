@@ -16,4 +16,5 @@
 <project path="dloader" name="dloader" revision="master" />
 <project path="firmware" name="firmware" revision="master" />
 <project path="utility/hwparam" name="hwparam" revision="master" />
+<project path="utility/uwpflash" name="uwpflash" revision="master" />
 </manifest>
