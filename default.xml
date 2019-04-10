@@ -15,7 +15,7 @@
 </project>
 <project path="firmware" name="firmware" revision="master" />
 <project path="utility/hwparam" name="hwparam" revision="master" />
-<project path="utility/dloader" name="dloader" revision="master" />
+<project path="utility/uwpflash" name="uwpflash" revision="master" />
 
 <project path="apps" name="sprd_IoT/zephyr/apps" remote="private" revision="smart_speaker" />
 </manifest>
